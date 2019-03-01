@@ -1,0 +1,17 @@
+{
+  "name": "thing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "graphql": "^14.1.1",
+    "graphql-code-generator": "^0.18.0",
+    "graphql-codegen-typescript-common": "^0.18.0",
+    "graphql-codegen-typescript-resolvers": "^0.18.0",
+    "graphql-codegen-typescript-server": "^0.18.0",
+    "graphql-tag": "^2.10.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.1"
+  }
+}

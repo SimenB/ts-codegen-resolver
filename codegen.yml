@@ -1,0 +1,13 @@
+overwrite: true
+config:
+  noNamespaces: true
+  immutableTypes: true
+  enumsAsTypes: true
+  strict: true
+generates:
+  resolver-types.ts:
+    schema: 'client-schema.graphql'
+    plugins:
+      - typescript-common
+      - typescript-server
+      - typescript-resolvers
